@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git 'https://github.com/HemaTate/jenkins.git'
+                git 'https://github.com/HemaTate/studentapp.git'
             }
         }
         stage('Build') {
